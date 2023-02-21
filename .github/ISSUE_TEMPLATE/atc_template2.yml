@@ -35,18 +35,6 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: The Log
-    value: |
-      "## What was worked on
-      <!-- Issues and problems that happened during -->
-      ## Issues Triaged
-      <!-- Links to issues created during the atc shift -->
-      ## Recurring Issues
-      <!-- Links to recurring problems -->
-      ## Timeline (Eastern Time)
-      <!-- Log all important events like productions incidents or issue with the merge queue. -->"
-- type: textarea
-  attributes:
     label: Environment
     description: |
       examples:
