@@ -1,6 +1,6 @@
 name: ATC Log 
 description: Create Daily ATC Log Issue
-title: "[ATC Log]: 202Y-MM-DD
+title: "[ATC Log]: 202Y-MM-DD"
 labels: ["atc"]
 body:
 - type: checkboxes
