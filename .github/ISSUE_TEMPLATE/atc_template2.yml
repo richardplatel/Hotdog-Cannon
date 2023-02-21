@@ -35,7 +35,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label:
+    label: The Log
     value: |
       "## What was worked on
       <!-- Issues and problems that happened during -->
