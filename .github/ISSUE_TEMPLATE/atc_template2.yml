@@ -5,7 +5,7 @@ labels: ["atc"]
 body:
 - type: textarea
   attributes:
-    label: ATC: 
+    label: "ATC:" 
     description: Your GitHub handle 
 - type: textarea
   attributes:
