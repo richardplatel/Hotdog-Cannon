@@ -3,7 +3,7 @@ description: Create Daily ATC Log Issue
 title: "[ATC Log]: 202Y-MM-DD"
 labels: ["atc"]
 body:
-- type: textarea
+- type: input
   attributes:
     label: "ATC:" 
     description: Your GitHub handle 
@@ -19,6 +19,5 @@ body:
       <!-- Links to recurring problems -->
       "## Timeline (Eastern Time)"
       <!-- Log all important events like productions incidents or issue with the merge queue. -->
-    render: markdown
   validations:
     required: false
