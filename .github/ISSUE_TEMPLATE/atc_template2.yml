@@ -16,8 +16,8 @@ body:
       "## Timeline (Eastern Time)"
       <!-- Log all important events like productions incidents or issue with the merge queue. -->
     render: markdown
-    validations:
-      required: false
+  validations:
+    required: false
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
