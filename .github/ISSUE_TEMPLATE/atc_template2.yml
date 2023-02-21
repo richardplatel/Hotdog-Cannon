@@ -1,7 +1,7 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
-labels: [Bug, Needs Triage]
+name: ATC Log 
+description: Create Daily ATC Log Issue
+title: "[ATC Log]: 202Y-MM-DD
+labels: ["atc"]
 body:
 - type: checkboxes
   attributes:
@@ -33,6 +33,18 @@ body:
       4. See error...
   validations:
     required: false
+- type: textarea
+  attributes:
+    label:
+    value: |
+      "## What was worked on
+      <!-- Issues and problems that happened during -->
+      ## Issues Triaged
+      <!-- Links to issues created during the atc shift -->
+      ## Recurring Issues
+      <!-- Links to recurring problems -->
+      ## Timeline (Eastern Time)
+      <!-- Log all important events like productions incidents or issue with the merge queue. -->"
 - type: textarea
   attributes:
     label: Environment
